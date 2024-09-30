@@ -1,0 +1,31 @@
+.coffee-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .coffee-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .coffee-text {
+    position: absolute;
+    top: 10%; /* Adjust as needed */
+    left: 20%; /* Adjust as needed */
+    color: white;
+    z-index: 1;
+    text-shadow: 2px 2px 4px #FFD700, 6px 6px 2px black;
+  }
+  
+  .coffee-text h1 {
+    font-size: 5rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 4px 4px 4px #FFD700, 6px 6px 6px black;
+  }
+  
+  .coffee-text h2, .coffee-text h4 {
+    text-shadow: 2px 2px 4px #FFD700, 2px 2px 1px black;
+  }
+  

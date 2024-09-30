@@ -1,0 +1,18 @@
+/* App.css */
+
+/* Ensure the navbar is on top of other content */
+.navBar {
+    position: relative; /* Ensure relative positioning to control z-index */
+    z-index: 1000; /* Higher value to be on top of the image */
+  }
+  
+  /* Optional: Add specific styles for your image if needed */
+  img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ensure image covers the container */
+  }
+  
+  .about{
+    z-index: 2000;;
+  }
